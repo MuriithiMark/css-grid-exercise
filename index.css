@@ -1,0 +1,34 @@
+body {
+    background-color: yellow;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 100px 500px;
+    justify-items: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    column-gap: 10px;
+}
+
+.angular, .react, .vue {
+    display: grid;
+    justify-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    height: 400px;
+    padding: 20px;
+}
+
+img {
+    width: 150px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid lightblue;
+    border-radius: 100%;
+}
